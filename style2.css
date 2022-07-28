@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Edu QLD Beginner", cursive;
+  background-color: rgb(148, 44, 148);
+  line-height: 130%;
+}
+
+#pres {
+  border: 5px solid #000;
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+#je_suis {
+  background: linear-gradient(blue, pink);
+}
+strong,
+em,
+u {
+  background: linear-gradient(blue, pink);
+}
+
+#croquette {
+  border: 5px solid rgb(0, 0, 255);
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  width: 300px;
+}
+
+table,
+td,
+th,
+tr {
+  background-color: white;
+}
+
+#croquette,
+p {
+  background-color: white;
+}
+
+#poupée {
+  background: linear-gradient(blue, pink);
+}
+
+#qualities {
+  box-sizing: content-box;
+  width: 100%;
+  border: solid #5b6dcd 10px;
+  padding: 15px;
+  border-style: dotted;
+  background: linear-gradient(blue, pink);
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
+
+li {
+  list-style: none;
+}
